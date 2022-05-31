@@ -56,8 +56,9 @@ CMD ["npm","start"]
 docker build 명령어 
 
 <aside>
+ ```
 💡 docker build -t sally-test:0.1 ./
-
+```
 - t 옵션 : 빌드할 이미지의 이름 지정
 - build:0.0 : 이미지의 이름과 버전
 - ./ : dockerfile이 위치한 디렉토리
@@ -66,14 +67,16 @@ docker build 명령어
 docker run 명령어 
 
 <aside>
+ ```
 💡 docker run -it -p 3300:3100 <컨테이너 이름>
-
+```
 </aside>
 
 docker continer 접속 명령어 
 
 <aside>
+```
 💡 docker exec -it <컨테이너 이름> /bin/sh  
 #bash가 없음
-
+```
 </aside>
